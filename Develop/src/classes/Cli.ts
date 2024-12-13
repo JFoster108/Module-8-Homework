@@ -15,6 +15,7 @@ class Cli {
     this.vehicles = vehicles;
   }
 
+  // static method to generate a vin
   static generateVin(): string {
     return Math.random().toString(36).substring(2, 15);
   }
@@ -96,7 +97,6 @@ class Cli {
       parseInt(answers.year),
       parseInt(answers.weight),
       parseInt(answers.topSpeed),
-      []
     );
 
     this.vehicles.push(car);
@@ -126,7 +126,6 @@ class Cli {
       parseInt(answers.year),
       parseInt(answers.weight),
       parseInt(answers.topSpeed),
-      [],
       parseInt(answers.towingCapacity)
     );
 

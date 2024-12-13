@@ -33,7 +33,7 @@ class Truck extends Vehicle {
     this.towingCapacity = towingCapacity;
   }
 
-  printDetails(): void {
+  overrideprintDetails(): void {
     super.printDetails();
     console.log(`VIN: ${this.vin}`);
     console.log(`Color: ${this.color}`);

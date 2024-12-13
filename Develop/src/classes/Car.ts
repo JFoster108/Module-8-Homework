@@ -29,7 +29,7 @@ class Car extends Vehicle {
     this.topSpeed = topSpeed;
   }
 
-  printDetails(): void {
+  overrideprintDetails(): void {
     super.printDetails();
     console.log(`VIN: ${this.vin}`);
     console.log(`Color: ${this.color}`);

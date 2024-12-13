@@ -32,7 +32,7 @@ class Motorbike extends Vehicle {
     this.wheels = wheels.length === 2 ? wheels : [new Wheel(), new Wheel()];
   }
 
-  printDetails(): void {
+  overrideprintDetails(): void {
     super.printDetails();
     console.log(`VIN: ${this.vin}`);
     console.log(`Color: ${this.color}`);
