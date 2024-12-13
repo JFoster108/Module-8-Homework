@@ -7,7 +7,7 @@ This is a homework assignment working with node.js and typescript for the softwa
 
 ## Installation
 
-N/A
+Clone this repository to your system, then run npm start to begin.
 
 ## Usage
 
@@ -21,4 +21,8 @@ N/A
 
 Please refer to the LICENSE in the repository.
 
+
+## Demonstration Video
+
+[Watch the demonstration video](https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-hero-goto)
 ---
