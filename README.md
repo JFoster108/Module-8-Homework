@@ -24,5 +24,5 @@ Please refer to the LICENSE in the repository.
 
 ## Demonstration Video
 
-[Watch the demonstration video](https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-hero-goto)
+[Watch the demonstration video](https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-hero-gotohttps://drive.google.com/file/d/1GBdFnkdQZT-TY4Dv30hPHL1otLMY5wyk/view?usp=sharing)
 ---
