@@ -141,14 +141,17 @@ class Cli {
       { type: "input", name: "year", message: "Enter year:" },
       { type: "input", name: "weight", message: "Enter weight (lbs):" },
       { type: "input", name: "topSpeed", message: "Enter top speed (mph):" },
-      { type: "input", name: "wheelDiameter", message: "Enter wheel diameter:" },
+      { type: "input", name: "frontWheelDiameter", message: "Enter front wheel diameter:" },
+      { type: "input", name: "frontWheelBrand", message: "Enter front wheel brand:" },
+      { type: "input", name: "rearWheelDiameter", message: "Enter rear wheel diameter:" },
+      { type: "input", name: "rearWheelBrand", message: "Enter rear wheel brand:" },
     ]);
-
+  
     const wheels = [
-      new Wheel(parseInt(answers.wheelDiameter), "Default"),
-      new Wheel(parseInt(answers.wheelDiameter), "Default"),
+      new Wheel(parseInt(answers.frontWheelDiameter), answers.frontWheelBrand),
+      new Wheel(parseInt(answers.rearWheelDiameter), answers.rearWheelBrand),
     ];
-
+  
     const motorbike = new Motorbike(
       Cli.generateVin(),
       answers.color,
@@ -159,10 +162,11 @@ class Cli {
       parseInt(answers.topSpeed),
       wheels
     );
-
+  
     this.vehicles.push(motorbike);
     console.log("Motorbike created successfully!");
   }
+  
 
   async selectVehicle(): Promise<void> {
     if (this.vehicles.length === 0) {
