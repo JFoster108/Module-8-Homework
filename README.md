@@ -24,5 +24,5 @@ Please refer to the LICENSE in the repository.
 
 ## Demonstration Video
 
-[Watch the demonstration video](https://drive.google.com/file/d/1GBdFnkdQZT-TY4Dv30hPHL1otLMY5wyk/view)
+[Watch the demonstration video](https://drive.google.com/file/d/1DUuqVEuYMJeBgrIDU_GDrTNRfx4rmYZS/view)
 ---
